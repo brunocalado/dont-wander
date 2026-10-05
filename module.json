@@ -1,0 +1,39 @@
+{
+  "id": "dont-wander",
+  "title": "Don't Wander",
+  "description": "Draw a zone on the map and player tokens stay inside it until you remove or grow it — no pausing the game.",
+  "version": "0.0.1",
+  "authors": [
+    {
+      "name": "Mestre Digital",
+      "url": "http://youtube.com/@mestredigital",
+      "flags": {}
+    }
+  ],
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "documentTypes": {
+    "RegionBehavior": {
+      "partyZone": {}
+    }
+  },
+  "socket": true,
+  "media": [
+    {
+      "type": "setup",
+      "url": "modules/dont-wander/docs/thumbnail.webp",
+      "thumbnail": "modules/dont-wander/docs/thumbnail.webp",
+      "loop": false,
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/brunocalado/dont-wander",
+  "manifest": "https://github.com/brunocalado/dont-wander/releases/latest/download/module.json",
+  "download": "https://github.com/brunocalado/dont-wander/releases/download/0.0.1/module.zip",
+  "flags": {}
+}
